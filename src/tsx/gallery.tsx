@@ -31,7 +31,7 @@ const Gallery: React.FC = () => {
   return (
     <div className="">
       <h2 className="text-xl font-semibold mt-8 mb-2">Gallery</h2>
-      <p className="mb-6">A collection of my favorite photographs and projects.</p>
+      <p className="mb-6">Through My Lens & In Front of It</p>
 
       {/* Gallery Grid */}
       <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
