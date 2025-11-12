@@ -2,7 +2,10 @@ const Landing: React.FC = () => {
   return (
     <main>
       <section className="mb-8">
-        <h3 className="text-lg font-semibold mt-4">Bio</h3>
+        <h3 className="text-xl font-semibold mt-4">Bio</h3>
+        <p className="mt-2 text-base italic">
+          Daydreamer.
+        </p>
         <p className="mt-2 text-sm">
           A jack of many trades, often better than a master of one. I have
           worked in full-stack development, sales, marketing, product, and
@@ -30,8 +33,21 @@ const Landing: React.FC = () => {
         </div> */}
       </section>
       <section>
-        <h3 className="text-lg font-semibold mt-8 mb-2">Projects</h3>
+        <h3 className="text-xl font-semibold mt-8 mb-2">Projects</h3>
         <div className="space-y-6">
+           <div>
+            <a
+              href="https://www.mangosalt.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-custom-orange underline"
+            >
+              <h5 className="text-base font-medium">Mangosalt</h5>
+            </a>
+            <p className="text-sm">
+              Creative studios: a playground for ideas
+            </p>
+          </div>
         <div>
             <a
               href="https://theFidia.com"
@@ -39,7 +55,7 @@ const Landing: React.FC = () => {
               rel="noopener noreferrer"
               className="hover:text-custom-orange underline"
             >
-              <h5 className="text-md font-semibold">theFidia</h5>
+              <h5 className="text-base font-medium">theFidia</h5>
             </a>
             <p className="text-sm">
               A Saas Music publishing administration platform
@@ -52,27 +68,11 @@ const Landing: React.FC = () => {
               rel="noopener noreferrer"
               className="hover:text-custom-orange underline"
             >
-              <h5 className="text-md font-semibold">FactFinder</h5>
+              <h5 className="text-base font-medium">FactFinder</h5>
             </a>
             <p className="text-sm">
               A Machine Learning and Natural Language Processing Approach to
               Detecting Fake News
-            </p>
-          </div>
-          <div>
-            <a
-              href="https://github.com/the-blaque/EXPRESSION-CALCULATOR"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-custom-orange underline"
-            >
-              <h5 className="text-md font-semibold flex items-center">
-                Expression Calculator
-              </h5>
-            </a>
-            <p className="text-sm">
-              Software for calculating mathematical expressions as used in
-              calculators
             </p>
           </div>
           <div>
@@ -82,7 +82,7 @@ const Landing: React.FC = () => {
               rel="noopener noreferrer"
               className="hover:text-custom-orange underline"
             >
-              <h5 className="text-md font-semibold">Portfolio</h5>
+              <h5 className="text-base font-medium">Portfolio</h5>
             </a>
             <p className="text-sm">Source code for this portfolio</p>
           </div>
