@@ -3,8 +3,7 @@ import { Analytics } from "@vercel/analytics/react";
 import {
   BrowserRouter as Router,
   Routes,
-  Route,
-  Link
+  Route
 } from "react-router-dom";
 import { TbSunset2 } from "react-icons/tb";
 import { IoLogoLinkedin } from "react-icons/io";
